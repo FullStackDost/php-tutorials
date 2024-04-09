@@ -6,6 +6,7 @@ Thanks you.
 
 //checking
 
+exit();
 if(isset($_POST['submit'])){
 
     ///
@@ -59,9 +60,9 @@ if(isset($_POST['submit'])){
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" enctype="multipart/form-data">
     <div>
         <label for="upload"> Select image to upload</label>
-        <!--fild | campo -->
+        <!--file -->
         <input type="file" name="upload">
-         <!--Button -- botao para submeter -->
+         <!--Button -->
          <input type="submit" value="submit" name='submit'>
 
     </div>
