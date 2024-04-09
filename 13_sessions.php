@@ -19,7 +19,7 @@ if(isset($_POST['submit'])){
     $username= filter_input(INPUT_POST, 'username', FILTER_SANITIZE_SPECIAL_CHARS );
     $password = $_POST['password'];
 
-    if ($username=='john' && $password=='password') {
+    if ($username=='fullstackdost' && $password=='fullstackdost') {
         $_SESSION['username'] = $username;
         header('Location: /php/13.1_dashboard.php');
     } else{
