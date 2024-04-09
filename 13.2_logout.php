@@ -14,7 +14,7 @@
     session_destroy();
 
     // redirect to homepage(13_sessions.php)
-    header('Location: /13_sessions.php');
+    header('Location: /php/13_sessions.php');
 
 ?>
 
