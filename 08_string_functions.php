@@ -8,6 +8,18 @@
 <body>
 <?php
     /**
+     * PHP Strings can be declared with two syntaxes 
+     * 1. Single quotes
+     * 2. Double quotes
+     * And lets know the difference between them
+     */
+    $var1 = 123; 
+    $string1 = 'Single quoted string $var1'; 
+    echo $string1; // output: Single quoted string $var1 
+    $string2 = "Double quoted string $var1"; 
+    echo $string2; // output: Double quoted string 123 
+    
+    /**
      * The PHP string functions are part of the PHP core.
      * No installation is required to use these functions.
      * more on the link: https://www.fullstackdost.com/course/php-tutorial/

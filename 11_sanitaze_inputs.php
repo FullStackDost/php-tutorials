@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic PHP Page</title>
+    <title>PHP Sanitize input</title>
 </head>
 <body>
 <?php
     /**
      * SECURITY INPUTS
+     * We should sanitize user input as we should not trust on end-user
+     * validation and verification of input data is required.
+     * some example for input validation via inbuilt function and params. 
      */
     if (isset($_POST['submit'])) {
         // 1 option:

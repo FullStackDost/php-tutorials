@@ -28,7 +28,7 @@
       echo $contents.'<br>';
    }else {
       $handle = fopen($file, 'w');
-      $contents = 'Brand'. PHP_EOL .'Sara' .PHP_EOL . 'Mike';
+      $contents = 'Brand'. PHP_EOL .'Vinay' .PHP_EOL . 'Kumar';
       fwrite($handle, $contents);
       fclose($handle);
    }

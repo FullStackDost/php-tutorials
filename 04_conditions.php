@@ -20,7 +20,7 @@
     // age variable.:
     $age = 0; //age
     $name = "Vinay"; //name
-    $x = "Vinay"; //name
+    $x = "Vinay"; // not use this type of variables, be meaningful
     echo "<h2> Name: {$name}<h2>";
     echo "<h3> Age: {$age} </h3>";
 

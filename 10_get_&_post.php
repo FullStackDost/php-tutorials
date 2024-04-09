@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP GET &amp; POST</title>
+    <title>PHP GET & POST</title>
 </head>
 <body>
 
@@ -19,13 +19,14 @@
         echo 'Age  : '.$_POST['age'].'<hr>';
     }
     ?>
-
+    <!-- GET: method="GET/get" -->
+    <!-- POST: method="POST/post" -->
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
         <div>
             <label for="name">Name: </label><input type="text" name="name"  required></input>
         </div>
         <div>
-            <labelb for="age">age: </label><input type="number" name="age" required></input>
+            <label for="age">age: </label><input type="number" name="age" required></input>
         </div>
         <div>
         <input type="submit" value="submit" name="submit"

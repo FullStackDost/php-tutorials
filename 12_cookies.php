@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic PHP Page</title>
+    <title>Basic Cookies</title>
 </head>
 <body>
 <?php
@@ -21,7 +21,7 @@
   setcookie('name', 'Brad', time() + 86400 * 30);
   //(86400)--1day * n--nr of days = n.days: 86400 * 30
 
-  if (isset($_COOKIE['name'])){ echo $_COOKIE['name'];}
+  if (isset($_COOKIE['name'])){ echo $_COOKIE['name']; } 
 
   setcookie('name', '', time() - 86400);
 

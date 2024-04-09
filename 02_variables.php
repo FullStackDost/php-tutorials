@@ -13,10 +13,10 @@
      *
      */
 
-    $name = "juliao LB"; //string
+    $name = "FullStackDost"; //string
     $age = 5; //int
     $height = 10.5; //float
-    $status = false; //boll
+    $status = false; //boolean
 
     //output:
     echo "name: $name, age: $age, height: $height, status: $status";
@@ -34,7 +34,7 @@
     echo "Quotient of $num1 and $num2: " . ($num1 / $num2) . "<br>"; //(/ Quotient of $num1 and $num2)
     echo "Product of $num1 and $num2: " . ($num1 * $num2) . "<br>"; //(* Product of $num1 and $num2)
     echo "(Modulus) Remainder of $num1 divided by $num2: " .
-            ($num1 % $num2) . "<br>"; //(% Remainder of $num1 divided by $num2)
+            ($num1 % $num2) . "<br>"; //(% Remainder (Modulus operator) of $num1 divided by $num2)
     //(** Result of raising $num1 to the $num2'th power)
     echo "Result of raising $num1 to the $num2'th power" . ($num1 ** $num2) . "<br>";
 ?>

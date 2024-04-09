@@ -16,7 +16,7 @@
     echo "<hr>For loop: ";
     /** For loop **/
     for ($i=1; $i < 10; $i++) {
-    var_dump($i);
+        var_dump($i);
     }
 
     echo "<hr>while loop: ";
