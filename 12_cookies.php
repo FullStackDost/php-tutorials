@@ -10,11 +10,12 @@
 
   //set cookie
   //storing name
-  setcookie('name', 'Brad', time() + 86400 * 30);
+  // Set a cookie named "username" with the value "John" that expires in 1 hour
+  setcookie("username", "John", time() + 3600, "/");
   //(86400)--1day * n--nr of days = n.days: 86400 * 30
 
-  if (isset($_COOKIE['name'])){ echo $_COOKIE['name']; } 
+  if (isset($_COOKIE['username'])){ echo $_COOKIE['username']; } 
 
-  setcookie('name', '', time() - 86400);
+  // setcookie('username', '', time() - 86400);
 
 ?>
