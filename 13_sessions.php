@@ -21,7 +21,7 @@ if(isset($_POST['submit'])){
 
     if ($username=='john' && $password=='password') {
         $_SESSION['username'] = $username;
-        header('Location: /13.1_dashboard.php');
+        header('Location: /php/13.1_dashboard.php');
     } else{
         echo'incorrect login <hr></br>';
     }
@@ -36,7 +36,7 @@ if(isset($_POST['submit'])){
         </div>
     
         <div  class="password">
-            <labelb for="password">password: </label><input type="text" name="password" required></input>
+            <label for="password">password: </label><input type="text" name="password" required></input>
         </div>
         
         <input type="submit" value="Login" name="submit">
